@@ -3,6 +3,7 @@
 1. Установлен "UiAutomator2 Driver for Android" (https://appium.io/docs/en/drivers/android-uiautomator2/index.html#basic-setup).
 1. Установлен stable Node.js.
 1. Команда `appium-doctor --android` успешно проходит все проверки (https://appium.io/docs/en/about-appium/getting-started/#verifying-the-installation).
+1. На эмуляторе или физическом устройстве для теста установлено приложение "Мой Билайн".
 
 # Как запустить тесты локально
 1. Запустить эмулятор или подключить физическое устройство на базе ОS Android.
