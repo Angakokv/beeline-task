@@ -1,0 +1,24 @@
+{
+  "name": "beeline-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android-test": "npx wdio run config/android.conf.js",
+    "generate-allure-report": "allure generate auto-generated/allure-results -o auto-generated/allure-report --clean",
+    "open-allure-report": "allure open auto-generated/allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.14.1",
+    "webdriverio": "^7.14.1"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.14.1",
+    "@wdio/appium-service": "^7.14.1",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1"
+  }
+}
