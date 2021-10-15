@@ -13,7 +13,7 @@ describe('Пользователь успешно входит в приложе
 
     describe('Отображается расширенная форма входа', function() {
         before(async function() {
-            // await LoginPage.clickOnPhoneNumber();
+            await LoginPage.clickOnPhoneNumber();
         });
 
         it('Проверить, что отображается ссылка "Войти с паролем"', async function() {
